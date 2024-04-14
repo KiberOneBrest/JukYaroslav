@@ -74,6 +74,7 @@ main {
 .gallery-img {
     width: 100%;
     border-radius: 3 px;
+  
 }
 .gallery-title {
     text-align: center;
@@ -90,4 +91,68 @@ textarea {
 
 form button{
     grid-column: 1/-1;
+}
+
+.nav-item{
+    transition: 0.5s;
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+    text-shadow: 0px 0px 50px blue;
+}
+
+.main-img{
+    transition: 0.5s;
+}
+
+.main-img:hover {
+    transform: scale(1.2);
+   filter: grayscale(50%);
+   box-shadow: 0px 0px 50px blue;
+}
+
+.s-img{
+    transition: 0.5s;
+}
+
+.s-img:hover{
+    transform: scale(1.2);
+    box-shadow:0px 0px 50px blue;
+}
+
+.gallery-img{
+    transition: 0.5s;
+}
+
+.gallery-img:hover{
+    transform: scale(1.2);
+    box-shadow:  0px 0px 50px blue;
+}
+
+.gallery{
+    transition: 0.5s;
+}
+
+.gallery:hover{
+    transform: scale(1.2);
+    box-shadow:  0px 0px 50px blue;
+}
+
+.r-ona{
+    transition: 0.5s;
+}
+
+.r-ona:hover{
+    transform: scale(1.2);
+    box-shadow:  0px 0px 50px blue;
+}
+
+.p-ubg{
+    transition: 0.5s;
+}
+
+.p-ubg:hover{
+   transform: scale(1.2);
+   box-shadow:  0px 0px 50px blue;
 }
